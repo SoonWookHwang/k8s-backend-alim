@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/backend/alim/v1", produces = MediaType.APPLICATION_JSON_VALUE)public class BackendAlimController {
+@RequestMapping(value = "/backend/alim/v1", produces = MediaType.APPLICATION_JSON_VALUE)
+public class BackendAlimController {
     @GetMapping(value = "/hello")
     public ApiResponseDto<String> hello() {
         return ApiResponseDto.createOk("알림 백엔드 서비스가 호출되었습니다");
