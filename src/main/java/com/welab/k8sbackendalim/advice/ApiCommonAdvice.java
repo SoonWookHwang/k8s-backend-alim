@@ -4,6 +4,7 @@ import com.welab.k8sbackendalim.advice.parameter.ParameterErrorDto;
 import com.welab.k8sbackendalim.common.dto.ApiResponseDto;
 import com.welab.k8sbackendalim.common.exception.BadParameter;
 import com.welab.k8sbackendalim.common.exception.ClientError;
+import com.welab.k8sbackendalim.common.exception.NotFound;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
